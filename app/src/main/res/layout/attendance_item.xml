@@ -1,0 +1,41 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_margin="5dp"
+
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewkelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="kelas"
+        android:textSize="14sp" />
+</LinearLayout>
